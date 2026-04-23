@@ -8,9 +8,9 @@ import json
 from pathlib import Path
 from PIL import Image
 
-st.set_page_config(page_title="AI Theo Dõi Mức Độ Căng Thẳng", page_icon="🧠", layout="wide")
-st.title("🧠 AI Theo Dõi Mức Độ Căng Thẳng")
-st.markdown("**Người bạn đồng hành sức khoẻ tâm lý đắc lực cho học sinh THCS**")
+st.set_page_config(page_title="AI StressGuard Student", page_icon="🧠", layout="wide")
+st.title("🧠 AI StressGuard Student")
+st.markdown("**Trợ lý sức khỏe tâm lý dành cho học sinh THCS & THPT**")
 
 # ====================== SIDEBAR ======================
 # ====================== SIDEBAR ======================
@@ -35,7 +35,7 @@ with st.sidebar:
     
     st.markdown("---")
     st.markdown("**Tác giả:** Trần Quốc Thông  \n**Trường:** THCS và THPT Phú Quới")
-    st.caption("Dự án phần mềm theo dõi mức độ stress của học sinh THCS")
+    st.caption("Dự án thi Tin học trẻ - phần mềm sáng tạo 2026")
 
 # ====================== LƯU DỮ LIỆU ======================
 DATA_FILE = Path("stress_data.json")
